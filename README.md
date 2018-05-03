@@ -26,8 +26,8 @@ I want to use the model not only to predict the historical loan status, but also
 * Select data: Get rid of null features, split train and test datasets in terms of issued time, select data with term of 36 months
 * Feature engineering and cleaning
 * Train a preliminary XGBoost model
-* Tuning hyperparameters with Bayesian Optimization
-* Find out the most important predictors based on the tuned model 
+* Tune hyperparameters with Bayesian Optimization
+* Retrain the model; Find out the most important predictors 
 * Save the model
 
 **Note:** Historical data file is too large (more than 100 MB) therefore is not uploaded on to github
