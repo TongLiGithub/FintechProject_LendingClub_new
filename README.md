@@ -5,7 +5,7 @@ In this project, I used borrowers' social and economic information to predict th
 
 ### Part I Data Preparation
 
-** This part includes three sections:**    
+**This part includes three sections:**    
 * Fetch current and historical data (2014 data) from Lending Club
 * Unify feature formats of current loans (to lower case) and 2014 loans (remove underline in feature name)
 * Find common features of current and 2014 loans, keep only the common features, "loanstatus", and "issued" for 2014 loans and save to loan_2014.csv     
@@ -14,7 +14,7 @@ I want to use the model not only to predict the historical loan status, but also
 
 ### Part II Exploratory Data Analysis
 
-** This part includes four sections:**    
+**This part includes four sections:**    
 * Find out null features (in which all values are null). For other features, find out categorical and numeric features and separate them    
 * Examine categorical features one by one, consider how to work on them in the next step
 * Explore the relationship between categorical features and the target (loanstatus) by plots
@@ -22,11 +22,12 @@ I want to use the model not only to predict the historical loan status, but also
 
 ### Part III Modeling
 
-** This part includes five sections:**    
+**This part includes six sections:**    
 * Select data: Get rid of null features, split train and test datasets in terms of issued time, select data with term of 36 months
 * Feature engineering and cleaning
 * Train a preliminary XGBoost model
 * Tuning hyperparameters with Bayesian Optimization
 * Find out the most important predictors based on the tuned model 
+* Save the model
 
-** Note: ** Historical data file is too large (more than 100 MB) and cannot be uploaded on to github
+**Note:** Historical data file is too large (more than 100 MB) therefore is not uploaded on to github
